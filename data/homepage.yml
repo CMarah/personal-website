@@ -48,11 +48,11 @@ education:
   enable: true
   item:
     - title: BSc Mathematics
-      image: "/logos/upc.png"
+      image: "logos/upc.png"
       academy: Universitat Politècnica de Catalunya
       year: September 2012 - February 2017
     - title: BSc Computer Science
-      image: "/logos/upc.png"
+      image: "logos/upc.png"
       academy: Universitat Politècnica de Catalunya
       year: September 2012 - February 2017
 leadership:
