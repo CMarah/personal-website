@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 if [[ $(git status -s) ]]
 then
     echo "The working directory is dirty. Please commit any pending changes."
