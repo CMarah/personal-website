@@ -2,7 +2,7 @@
 title: "Problem 1"
 description: "A quick number theory problem"
 date: 2020-11-12T16:28:34+01:00
-draft: true
+draft: false
 markup: "mmark"
 ---
 
