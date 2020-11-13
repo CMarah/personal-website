@@ -6,7 +6,6 @@
     <div class="uk-container">
         <div class="uk-grid-small uk-child-width-1-4@s uk-text-center" uk-grid uk-height-match="target: > div > div > .card-body">
             {{ range .Data.Pages.ByPublishDate }}
-
             <div>
                 <div class="uk-card uk-card-default uk-width-1@m">
                     <div class="card-body">
@@ -20,11 +19,11 @@
                         </div>
                     </div>
                     <div class="uk-card-body">
-                        <p>{{.Params.description}}</p>
+                        <p>{{.Params.description}} TEST</p>
                     </div>
                 </div>
                     <div class="uk-card-footer">
-                        <a href="{{.Permalink | relURL}}" class="uk-button uk-button-text">Read more</a>
+                        <a href="{{.Permalink | relURL}}" class="uk-button uk-button-text">See solution</a>
                     </div>
                 </div>
             </div>

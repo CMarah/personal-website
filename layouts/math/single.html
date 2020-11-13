@@ -1,0 +1,112 @@
+{{ define "main" }}
+
+<!--  {{ partial "page-title.html" . }}-->
+<style>
+  p {
+    margin: 0;
+  }
+
+  .people-wrap {
+    display: inline-flex;
+    margin-top: 10px;
+  }
+
+  .people-image {
+    display: block;
+    border-radius: 50%;
+    /* remove gap*/
+  }
+
+  .people {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .name {
+    margin: auto;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #000;
+    font-family: Roboto, sans-serif;
+    line-height: 1.2;
+    margin-top: 2rem;
+  }
+
+  .content img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:30px;
+  }
+
+  img.skills{
+    height: 80px;
+  }
+
+  @media only screen and (min-width: 960px) {
+    .content img{max-width:60vw; max-height:60vh}
+
+  .content img{
+      max-width:60vw;
+      max-height:60vh
+  }
+  }
+  .content{
+      width: 90vw;
+      max-width: 1200px
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  code.has-jax {
+    -webkit-font-smoothing: antialiased;
+    background: inherit !important;
+    border: none !important;
+    font-size: 100%;
+  }
+</style>
+
+<section>
+  <div class="uk-container uk-margin-large-bottom uk-margin-medium-top">
+    <h1 class="uk-text-center uk-heading-medium">{{.Title}}</h1>
+    <p class="uk-text-center uk-text-lead">{{.Params.description}}</p>
+    <p style="text-align: right">Published on {{ .PublishDate.Format "Jan 02, 2006" }}</p>
+    <hr class="full-width">
+    <div class="content">
+      <span style="font-weight: 700">Goal</span>
+      <div style="margin: auto; max-width: 70em; margin-top: 1em;">
+        {{ $sections := split .Content "---END OF GOAL---" }}
+        <div style="border: 1px solid; border-radius: 10px;
+          padding: 1em 3em 1em 3em; background: #ffffcc;
+        ">
+          {{ index $sections 0 | safeHTML }}
+        </div>
+      </div>
+      <div style="font-weight: 700; margin-top: 4em;">Solution</div>
+      <div style="margin: auto; max-width: 70em; margin-top: 1em;">
+        <div style="margin-top: 3em">
+          {{ index $sections 1 | safeHTML }}
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+{{end}}

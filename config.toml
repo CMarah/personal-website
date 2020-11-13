@@ -32,13 +32,13 @@ googleAnalytics = ""
   weight=2
 
   [[menu.main]]
-  name = "Portfolio"
+  name = "Projects"
   URL = "portfolio"
   weight=3
 
   [[menu.main]]
   name = "Maths"
-  URL = "maths"
+  URL = "math"
   weight=4
 
   [[menu.main]]
@@ -49,14 +49,12 @@ googleAnalytics = ""
 
 [params]
 home = "Home"
-# Meta data
 description = "Carlos' personal website, mathematician & programmer based in Spain"
 author = "Carlos María Rodríguez"
 
-
   [params.footer]
   email = "carlos@marah.dev"
-  address = "Sevilla, ES"
+  address = "Madrid, ES"
 
 [markup]
   [markup.highlight]

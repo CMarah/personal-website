@@ -1,26 +1,31 @@
 ---
 banner:
-  title: Welcome!
+  title: Hi, I'm Carlos!
 social:
   twitter: ""
   linkedin: carlos-maria-rodriguez-18824b138
   github: cmarah
-  gitlab: ""
-  facebook: ""
   instagram: ""
   email: carlos@marah.dev
 about:
   enable: true
-  content: Mathematician & Developer based in Spain
+  content: "I'm a Mathematician & Developer based in Spain.  \n
+    I create fast & clean webpages and develop web services.
+  "
   button:
-    btnText: Find out more
+    btn_text: More about me
     URL: "/about"
 skill:
   enable: true
   item:
     - title: JavaScript
       logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
-      description: Details coming soon, contact me if you want to know more
+      description: "With over 5 years of experience, JavaScript is my main
+        programming Language.  I try to write clean, maintainable code, while
+        keeping up to date on current JS practices.<br>
+        In particular, I follow the functional programming paradigm wherever I can, as I think
+        it produces a more readable code.
+      "
     - title: Latex
       logo: https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg
       description: ''
@@ -30,7 +35,8 @@ experience:
     - title: Full-Stack Developer
       logo: https://www.walcu.com/wp-content/uploads/2018/10/logo_dark2.png
       company: Walcu
-      duration: March 2017 - January 2021
+      duration: March 2017 - Present
+      url: https://www.walcu.com
 hackathons:
   enable: false
   item:
@@ -51,10 +57,12 @@ education:
       image: "logos/upc.png"
       academy: Universitat Politècnica de Catalunya
       year: September 2012 - February 2017
+      url: https://cfis.upc.edu/es
     - title: BSc Computer Science
       image: "logos/upc.png"
       academy: Universitat Politècnica de Catalunya
       year: September 2012 - February 2017
+      url: https://cfis.upc.edu/es
 leadership:
   enable: false
   item:
