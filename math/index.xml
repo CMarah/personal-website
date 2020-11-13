@@ -7,5 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Tue, 12 May 2020 12:14:34 +0600</lastBuildDate><atom:link href="https://marah.dev/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 1</title>
+      <link>https://marah.dev/math/problem1/</link>
+      <pubDate>Thu, 12 Nov 2020 16:28:34 +0100</pubDate>
+      
+      <guid>https://marah.dev/math/problem1/</guid>
+      <description>Find all \(x, y \in \Z_+\) and primes \(p\) such that
+\[p^x + 1 = y^2\]
+---END OF GOAL---
+We begin by rearranging and transforming our equation:
+\[ \begin{aligned} p^x + 1 &amp;= y^2 \\ p^x &amp;= y^2 - 1 \\ p^x &amp;= (y+1)(y-1) \end{aligned} \]
+Therefore, we have
+\[ \left.\begin{aligned} y+1&amp;=p^a, a \in \Z_+ \\ y+1&amp;=p^b, a \in \Z_+, a  b \end{aligned}\right\} \Longrightarrow (y+1)-(y-1) = p^a - p^b \Longrightarrow 2 = p^b(p^{a-b} - 1) \]</description>
+    </item>
+    
   </channel>
 </rss>
