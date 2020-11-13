@@ -26,7 +26,7 @@ Therefore, we have
 $$
  \left.\begin{aligned}
   y+1&=p^a, a \in \Z_+ \\
-  y+1&=p^b, a \in \Z_+, a > b
+  y+1&=p^b, b \in \Z_+, a > b
  \end{aligned}\right\}
  \Longrightarrow
  (y+1)-(y-1) = p^a - p^b
