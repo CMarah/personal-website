@@ -19,7 +19,7 @@
 We begin by rearranging and transforming our equation:
 \[ \begin{aligned} p^x + 1 &amp;= y^2 \\ p^x &amp;= y^2 - 1 \\ p^x &amp;= (y+1)(y-1) \end{aligned} \]
 Therefore, we have
-\[ \left.\begin{aligned} y+1&amp;=p^a, a \in \Z_+ \\ y+1&amp;=p^b, a \in \Z_+, a  b \end{aligned}\right\} \Longrightarrow (y+1)-(y-1) = p^a - p^b \Longrightarrow 2 = p^b(p^{a-b} - 1) \]</description>
+\[ \left.\begin{aligned} y+1&amp;=p^a, a \in \Z_+ \\ y+1&amp;=p^b, b \in \Z_+, a  b \end{aligned}\right\} \Longrightarrow (y+1)-(y-1) = p^a - p^b \Longrightarrow 2 = p^b(p^{a-b} - 1) \]</description>
     </item>
     
     <item>
