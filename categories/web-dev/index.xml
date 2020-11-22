@@ -6,14 +6,15 @@
     <description>Recent content in web-dev on Carlos Marah</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 19 Jun 2020 23:00:00 +0000</lastBuildDate><atom:link href="https://marah.dev/categories/web-dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://marah.dev/categories/web-dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hugo Portfolio Website</title>
+      <title>Hugo Website</title>
       <link>https://marah.dev/portfolio/hugo-portfolio-website/</link>
-      <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
+      <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://marah.dev/portfolio/hugo-portfolio-website/</guid>
-      <description>I created my portfolio website using Hugo and UIKit, it serves as an online resume containing all my work.
+      <description>This is my personal website, made with Hugo &amp;amp; UIKit,
+I created my portfolio website using Hugo and UIKit, it serves as an online resume containing all my work.
 This has been created as a theme so that others can use and adapt it.
 Sections Homepage The homepage provides the basic information about you, including links to social media, skills you have, things you&amp;rsquo;ve done and your education. This page makes good use of UIKit grid and cards for organising all the information and ensuring it is responsive to work on mobile devices.</description>
     </item>

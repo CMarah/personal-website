@@ -8,6 +8,18 @@
     <language>en-gb</language>
     <lastBuildDate>Thu, 19 Oct 2017 15:26:15 +0000</lastBuildDate><atom:link href="https://marah.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Hugo Website</title>
+      <link>https://marah.dev/portfolio/hugo-portfolio-website/</link>
+      <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://marah.dev/portfolio/hugo-portfolio-website/</guid>
+      <description>This is my personal website, made with Hugo &amp;amp; UIKit,
+I created my portfolio website using Hugo and UIKit, it serves as an online resume containing all my work.
+This has been created as a theme so that others can use and adapt it.
+Sections Homepage The homepage provides the basic information about you, including links to social media, skills you have, things you&amp;rsquo;ve done and your education. This page makes good use of UIKit grid and cards for organising all the information and ensuring it is responsive to work on mobile devices.</description>
+    </item>
+    
+    <item>
       <title>Problem 1</title>
       <link>https://marah.dev/math/problem1/</link>
       <pubDate>Thu, 12 Nov 2020 16:28:34 +0100</pubDate>
@@ -20,17 +32,6 @@ We begin by rearranging and transforming our equation:
 \[ \begin{aligned} p^x + 1 &amp;= y^2 \\ p^x &amp;= y^2 - 1 \\ p^x &amp;= (y+1)(y-1) \end{aligned} \]
 Therefore, we have
 \[ \left.\begin{aligned} y+1&amp;=p^a, a \in \Z_+ \\ y+1&amp;=p^b, b \in \Z_+, a  b \end{aligned}\right\} \Longrightarrow (y+1)-(y-1) = p^a - p^b \Longrightarrow 2 = p^b(p^{a-b} - 1) \]</description>
-    </item>
-    
-    <item>
-      <title>Hugo Portfolio Website</title>
-      <link>https://marah.dev/portfolio/hugo-portfolio-website/</link>
-      <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
-      
-      <guid>https://marah.dev/portfolio/hugo-portfolio-website/</guid>
-      <description>I created my portfolio website using Hugo and UIKit, it serves as an online resume containing all my work.
-This has been created as a theme so that others can use and adapt it.
-Sections Homepage The homepage provides the basic information about you, including links to social media, skills you have, things you&amp;rsquo;ve done and your education. This page makes good use of UIKit grid and cards for organising all the information and ensuring it is responsive to work on mobile devices.</description>
     </item>
     
     <item>

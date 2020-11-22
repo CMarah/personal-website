@@ -20,7 +20,7 @@
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta name="description" property="og:description" content="A portfolio website made with Hugo">
+  <meta name="description" property="og:description" content="This website!">
   <meta name="image" property="og:image" content="/">
   <meta name="author" content="Carlos María Rodríguez">
   <meta name="generator" content="Hugo 0.76.5" />
@@ -180,33 +180,28 @@
 </div>
 
 
-
-
 <style>
   p {
-    margin: 0
+    margin: 0;
+    margin-bottom: 1em;
   }
+  body p:last-child { margin-bottom: 0em; }
 
   .people-wrap {
     display: inline-flex;
     margin-top: 10px;
   }
-
   .people-image {
     display: block;
     border-radius: 50%;
-     
   }
-
   .people {
     margin-left: 20px;
     margin-right: 20px;
   }
-
   .name {
     margin: auto;
   }
-
   h1,
   h2,
   h3,
@@ -218,7 +213,6 @@
     line-height: 1.2;
     margin-top: 2rem;
   }
-
   .content img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: block;
@@ -227,9 +221,6 @@
     margin-bottom:30px;
   }
 
-  p { margin-bottom: 1em; }
-
-  body p:last-child { margin-bottom: 0em; }
 
   img.skills{
     height: 80px;
@@ -238,14 +229,14 @@
   @media only screen and (min-width: 960px) {
     .content img{max-width:60vw; max-height:60vh}
 
-  .content img{
+    .content img{
       max-width:60vw;
       max-height:60vh
+    }
   }
-  }
-  .content{
-      width: 90vw;
-      max-width: 1200px
+  .content {
+    width: 90vw;
+    max-width: 1200px
   }
 
   table {
@@ -259,44 +250,23 @@
     text-align: left;
     padding: 8px;
   }
-
 </style>
-
-
 <section>
   <div class="uk-container uk-margin-large-bottom uk-margin-medium-top">
-    <h1 class="uk-text-center uk-heading-medium">Hugo Portfolio Website DEFAULT</h1>
-    <p class="uk-text-center uk-text-lead">A portfolio website made with Hugo</p>
-    <p class="uk-text-center">Published on Jun 19, 2020</p>
-    <p class="uk-text-center">Reading time: 4 minutes.</p>
+    <h1 class="uk-text-center uk-heading-medium">Hugo Website</h1>
+    <p class="uk-text-center uk-text-lead">This website!</p>
+    <p class="uk-text-center">Published on Nov 11, 2020</p>
     
 
     <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-text-center uk-flex-center uk-grid-large uk-margin-small-top" uk-grid>
-      
-
     
 
 
 
       <div>
         
-        <div>
-          <button class="uk-button uk-button-default" type="button"> <span uk-icon="icon: github"></span> GitHub</button>
-          <div class="uk-width-auto" uk-dropdown="pos: bottom-center; delay-hide:400">
-            <div class="uk-dropdown-grid uk-child-width-1-2" uk-grid>
-              <div>
-                <ul class="uk-nav uk-dropdown-nav">
-                  
-                  <li><a style="color: #0366d6; font-weight: 600" href="https://github.com/samrobbins85/hugo-developer-portfolio"> <span><img loading="lazy" src="https://res.cloudinary.com/samrobbins/image/upload/v1593092912/repo_ec3slk.svg"></span>  hugo-developer-portfolio</a></li>
-                  
-                  <li><a style="color: #0366d6; font-weight: 600" href="https://github.com/samrobbins85/portfolio-website"> <span><img loading="lazy" src="https://res.cloudinary.com/samrobbins/image/upload/v1593092912/repo_ec3slk.svg"></span>  portfolio-website</a></li>
-                  
-                </ul>
-              </div>
-
-            </div>
-          </div>
-        </div>
+        <a class="uk-button uk-button-default" href="https://github.com/CMarah/personal-website"> <span uk-icon="icon: github"></span>
+          Github</a>
         
       </div>
     </div>
@@ -315,19 +285,25 @@
           
           <div class="imagemargin">
             <a href="https://gohugo.io/">
-            <img class="contain skills" src="https://res.cloudinary.com/samrobbins/image/upload/v1591793276/logos/logos_hugo_h2xbne.svg" alt="Hugo" loading="lazy" style="cursor: pointer">
+            <img class="contain skills" src="/logos/hugo.svg" alt="Hugo" loading="lazy" style="cursor: pointer">
             </a>
           </div>
           
           <div class="imagemargin">
             <a href="https://getuikit.com/">
-            <img class="contain skills" src="https://res.cloudinary.com/samrobbins/image/upload/v1591793279/logos/logos_uikit_irc5gp.svg" alt="UIkit" loading="lazy" style="cursor: pointer">
+            <img class="contain skills" src="/logos/uikit.svg" alt="UIkit" loading="lazy" style="cursor: pointer">
             </a>
           </div>
           
           <div class="imagemargin">
-            <a href="https://forestry.io/">
-            <img class="contain skills" src="https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1593603175/forestry-pos-full_lid6rs.svg" alt="Forestry CMS" loading="lazy" style="cursor: pointer">
+            <a href="https://katex.org/">
+            <img class="contain skills" src="/logos/katex.svg" alt="KaTeX" loading="lazy" style="cursor: pointer">
+            </a>
+          </div>
+          
+          <div class="imagemargin">
+            <a href="https://mozilla.github.io/pdf.js/">
+            <img class="contain skills" src="/logos/pdfjs.png" alt="PDF JS" loading="lazy" style="cursor: pointer">
             </a>
           </div>
           
@@ -342,7 +318,8 @@
     
 
     <div class="content">
-      <p>I created my portfolio website using Hugo and UIKit, it serves as an online resume containing all my work.</p>
+      <p>This is my personal website, made with Hugo &amp; UIKit,</p>
+<p>I created my portfolio website using Hugo and UIKit, it serves as an online resume containing all my work.</p>
 <p>This has been created as a theme so that others can use and adapt it.</p>
 <h2 id="sections">Sections</h2>
 <h3 id="homepage">Homepage</h3>
