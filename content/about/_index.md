@@ -7,8 +7,11 @@ authorImage : "images/about/profile.jpg"
 ---
 
 Hi! I'm Carlos, a Mathematician & Software Developer residing in Spain.
-I enjoy solving problems, coding & art. I'm always looking for new challenges to tackle,
-of any kind.
+I was born in Seville, and at 17 I moved to Barcelona to study there. Thanks to the [CFIS
+Programme](https://www.upc.edu/en/the-upc/schools/cfis), a grant which allows studying two
+degrees simultaneously, I was able to further learn about two of the topics I'm most
+passionate about: Mathematics & Computer Science. Once I finished, I moved to Madrid to
+work there, and have remained here ever since.
 
-I have been working as a developer for 5 years, while pursuing other projects on my free
-time.
+Beside my job, pursuing personal projects & learning new things is very important to me.
+I am always looking for interesting problems, both mathematical & coding; I would like to post some of these in the _Math_ section.
