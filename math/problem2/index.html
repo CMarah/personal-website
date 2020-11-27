@@ -20,7 +20,7 @@
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta name="description" property="og:description" content="This is meta description.">
+  <meta name="description" property="og:description" content="IMO 2005 Q4">
   <meta name="image" property="og:image" content="/">
   <meta name="author" content="Carlos María Rodríguez">
   <meta name="generator" content="Hugo 0.76.5" />
@@ -36,8 +36,7 @@
   
   <link rel="stylesheet" href="/css/syntax.min.css" integrity="" media="screen">
 
-  <link rel="alternate" type="application/rss+xml" href="https://marah.dev/math/index.xml" title="Carlos Marah" />
-<script src="https://cdn.jsdelivr.net/npm/mailgo@0.9.14/dist/mailgo.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/mailgo@0.9.14/dist/mailgo.min.js" defer></script>
 
   <!--Favicon-->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -183,67 +182,148 @@
 
 
 
+<style>
+  p {
+    margin: 0;
+  }
 
-<section class="uk-margin-large-bottom">
-        <h1 class="uk-heading-large uk-text-center">Maths</h1>
-</section>
+  .people-wrap {
+    display: inline-flex;
+    margin-top: 10px;
+  }
 
+  .people-image {
+    display: block;
+    border-radius: 50%;
+     
+  }
 
+  .people {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 
-<section class="uk-margin-large-bottom">
-    <div class="uk-container">
-        <div class="uk-grid-small uk-child-width-1-4@s uk-text-center" uk-grid uk-height-match="target: > div > div > .card-body">
-            
-            <div>
-                <div class="uk-card uk-card-default uk-width-1@m">
-                    <div class="card-body">
-                    <div class="uk-card-header">
-                        <div class="uk-grid-small uk-flex-middle" uk-grid>
-                            <div class="uk-width-expand">
-                                <h3 class="uk-card-title uk-margin-remove-bottom">Problem 1</h3>
-                                <p class="uk-text-meta uk-margin-remove-top"><time
-                                        datetime="2020-11-12 16:28:34 &#43;0100 STD">Nov 12, 2020</time></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="uk-card-body">
-                        <p>A quick number theory problem TEST</p>
-                    </div>
-                </div>
-                    <div class="uk-card-footer">
-                        <a href="/math/problem1/" class="uk-button uk-button-text">See solution</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div>
-                <div class="uk-card uk-card-default uk-width-1@m">
-                    <div class="card-body">
-                    <div class="uk-card-header">
-                        <div class="uk-grid-small uk-flex-middle" uk-grid>
-                            <div class="uk-width-expand">
-                                <h3 class="uk-card-title uk-margin-remove-bottom">Problem 2</h3>
-                                <p class="uk-text-meta uk-margin-remove-top"><time
-                                        datetime="2020-11-27 18:48:34 &#43;0100 STD">Nov 27, 2020</time></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="uk-card-body">
-                        <p>IMO 2005 Q4 TEST</p>
-                    </div>
-                </div>
-                    <div class="uk-card-footer">
-                        <a href="/math/problem2/" class="uk-button uk-button-text">See solution</a>
-                    </div>
-                </div>
-            </div>
-            
+  .name {
+    margin: auto;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #000;
+    font-family: Roboto, sans-serif;
+    line-height: 1.2;
+    margin-top: 2rem;
+  }
+
+  .content img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:30px;
+  }
+
+  img.skills{
+    height: 80px;
+  }
+
+  @media only screen and (min-width: 960px) {
+    .content img{max-width:60vw; max-height:60vh}
+
+  .content img{
+      max-width:60vw;
+      max-height:60vh
+  }
+  }
+  .content{
+      width: 90vw;
+      max-width: 1200px
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  code.has-jax {
+    -webkit-font-smoothing: antialiased;
+    background: inherit !important;
+    border: none !important;
+    font-size: 100%;
+  }
+</style>
+
+<section>
+  <div class="uk-container uk-margin-large-bottom uk-margin-medium-top">
+    <h1 class="uk-text-center uk-heading-medium">Problem 2</h1>
+    <p class="uk-text-center uk-text-lead">IMO 2005 Q4</p>
+    <p style="text-align: right">Published on Nov 27, 2020</p>
+    <hr class="full-width">
+    <div class="content">
+      <span style="font-weight: 700">Goal</span>
+      <div style="margin: auto; max-width: 70em; margin-top: 1em;">
+        
+        <div style="border: 1px solid; border-radius: 10px;
+          padding: 1em 3em 1em 3em; background: #ffffcc;
+        ">
+          <p>Show that for all primes <span  class="math">\(p\)</span> there is a <span  class="math">\(n \in \N\)</span> such that</p>
+
+<p><span  class="math">\[2^n + 3^n + 6^n - 1 \equiv 0 \quad (mod \quad p)\]</span></p>
+
+<p>
+        </div>
+      </div>
+      <div style="font-weight: 700; margin-top: 4em;">Solution</div>
+      <div style="margin: auto; max-width: 70em; margin-top: 1em;">
+        <div style="margin-top: 3em">
+          </p>
+
+<p>This being a modulo problem with primes, we should keep in mind Fermat's Little Theorem:</p>
+
+<p><span  class="math">\[p \space \text{prime}, a \in \N \Rightarrow a^p \equiv a \space (mod \space p)\]</span></p>
+
+<p>Let's first find <span  class="math">\(n\)</span> for the cases <span  class="math">\(p = 2\)</span> and <span  class="math">\(p = 3\)</span>.</p>
+
+<p><span  class="math">\[p = 2; \quad 2 + 3 + 6 - 1 \equiv_2 10 \equiv_2 0\]</span></p>
+
+<p><span  class="math">\[p = 3; \quad 2^2 + 3^2 + 6^2 - 1 \equiv_3 48 \equiv_3 0\]</span></p>
+
+<p>Now, we can use Fermat's Little Theorem to state that, if <span  class="math">\(p > 3\)</span>,</p>
+
+<p><span  class="math">\[2^{p-1} \equiv 3^{p-1} \equiv 6^{p-1} \equiv 1 \space (mod \space p)\]</span></p>
+
+<p>so</p>
+
+<p><span  class="math">\[2^{p-2} \equiv_p 2^{-1}, 3^{p-2} \equiv_p 3^{-1}, 6^{p-2} \equiv_p 6^{-1},\]</span></p>
+
+<p>We need <span  class="math">\(p > 3\)</span> for these inverses to be well defined. We therefore have</p>
+
+<p><span  class="math">\[2^{p-2} + 3^{p-2} + 6^{p-2} \equiv_p 2^{-1} + 3^{-1} + 6^{-1} \equiv_p 6^{-1}(3+2+1)
+\equiv_p 6^{-1}(6) \equiv_p 1\]</span></p>
+
+<p>Which gives us the final result</p>
+
+<p><span  class="math">\[2^{p-2} + 3^{p-2} + 6^{p-2} - 1 \equiv_p 0\]</span></p>
+
+<p>And we are done.</p>
 
         </div>
-
+      </div>
     </div>
+  </div>
+  </div>
 </section>
-
 
     </div>
 <footer class="footer">

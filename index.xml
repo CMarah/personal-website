@@ -8,6 +8,20 @@
     <language>en-gb</language>
     <lastBuildDate>Thu, 19 Oct 2017 15:26:15 +0000</lastBuildDate><atom:link href="https://marah.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Problem 2</title>
+      <link>https://marah.dev/math/problem2/</link>
+      <pubDate>Fri, 27 Nov 2020 18:48:34 +0100</pubDate>
+      
+      <guid>https://marah.dev/math/problem2/</guid>
+      <description>Show that for all primes \(p\) there is a \(n \in \N\) such that
+\[2^n + 3^n + 6^n - 1 \equiv 0 \quad (mod \quad p)\]
+---END OF GOAL---
+This being a modulo problem with primes, we should keep in mind Fermat&#39;s Little Theorem:
+\[p \space \text{prime}, a \in \N \Rightarrow a^p \equiv a \space (mod \space p)\]
+Let&#39;s first find \(n\) for the cases \(p = 2\) and \(p = 3\).</description>
+    </item>
+    
+    <item>
       <title>Hugo Website</title>
       <link>https://marah.dev/portfolio/hugo-portfolio-website/</link>
       <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
