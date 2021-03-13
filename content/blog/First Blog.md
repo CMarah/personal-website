@@ -53,5 +53,7 @@ contain the built site. To comfortably do this, I just need a few extra steps:
 ```git worktree add -B gh-pages public upstream/gh-pages```
 
 To upload new content, I just need to run `hugo` to build the site, move to the `public/`
-folder and push to GitHub. I wrote a simple script to do this,
+folder and publish to GitHub. I wrote a simple script to do this,
 [publish.sh](https://github.com/CMarah/personal-website/blob/main/publish.sh).
+
+![GitHub Pages menu](/images/blog/ghpages.png)
