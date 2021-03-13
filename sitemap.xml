@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://marah.dev/blog/first-blog/</loc>
+    <lastmod>2021-03-12T21:14:34+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://marah.dev/math/problem2/</loc>
     <lastmod>2020-11-27T18:48:34+01:00</lastmod>
   </url>
@@ -40,11 +45,6 @@
   <url>
     <loc>https://marah.dev/math/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marah.dev/blog/first-blog/</loc>
-    <lastmod>2019-12-31T12:14:34+06:00</lastmod>
   </url>
   
   <url>
