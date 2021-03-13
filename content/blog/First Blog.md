@@ -1,5 +1,5 @@
 ---
-title: "Hosting a hugo website on GitHub pages"
+title: "Hosting a Hugo website on GitHub pages"
 date: 2021-03-12T21:14:34+06:00
 description: "How to set up & organize a web on GitHub pages powered by Hugo"
 author: "Carlos"
@@ -20,9 +20,9 @@ and designing if I want to create a new section. In fact, thanks to Hugo's commu
 which has created hundreds of [_themes_](https://themes.gohugo.io/), it's
 possible to write a Hugo website without any coding experience at all.
 
-Finally, to host the site I chose GitHub pages. As I stated, I wanted a very simple site,
+Finally, to host the site I chose GitHub pages. As I stated, I wanted a something very simple,
 and I don't need to look any further: GH pages is a perfectly fine way of serving a few
-html files, which is what a Hugo site ends up being.
+files, which is what a Hugo site ends up being.
 
 
 ### Hugo
@@ -32,7 +32,9 @@ My starting point was Sam Robbin's great
 and simple feel I was looking for. Though I rewrote quite a bit of the code, it was a
 pleasure using it. I'd say starting from a particular theme is extremely comfortable, as I
 can just need to focus on adding content, and progressively change the underlying code if
-needed.
+needed. One of the few gripes I had with Hugo was in these early stages, as it is very
+strict on where and how to have your code structured, but was still quite manageable, and
+entirely optional.
 
 To work with Hugo I use its CLI tool. When testing/writing locally, `hugo server` will
 make your site available at _localhost_. Hugo comes with LiveReload built in, and given
