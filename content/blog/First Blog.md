@@ -1,30 +1,57 @@
 ---
-title: "My new Website"
-date: 2019-12-31T12:14:34+06:00
-description: "My first blog, introducing my new website"
-author: "Sam Robbins"
+title: "Hosting a hugo website on GitHub pages"
+date: 2021-03-12T21:14:34+06:00
+description: "How to set up & organize a web on GitHub pages powered by Hugo"
+author: "Carlos"
 type: "post"
 ---
 
-For a long time this website has had a couple of links to contact me, but those days are over.
+When I set off to create a personal website, I knew I wanted it to be static. A blog
+should be fast & lightweight, and the simple logic is always a plus. Nowadays there is no
+shortage of static site generators, like Jekyll or Gatsby, and given my experience with
+JS & React these were some very natural options. Still, I ended up choosing Hugo,
+as I had read some great reviews about it, and wanted to learn something a bit different.
 
-Now I have a brand new Hugo website with a custom written theme complete with
+[Hugo](https://gohugo.io/) is an open-source static site generator. Hugo's text is
+written in markdown, while its layouts are written in plain HTML + JS, and uses Go to
+build the site.
+This means uploading new content is very fast, and I only need to worry about coding
+and designing if I want to create a new section. In fact, thanks to Hugo's community,
+which has created hundreds of [_themes_](https://themes.gohugo.io/), it's
+possible to write a Hugo website without any coding experience at all.
 
-- A homepage with more social links, and description of my skills
-- An about page with description of who I am
-- A portfolio page to showcase all my projects
-- A blog
+Finally, to host the site I chose GitHub pages. As I stated, I wanted a very simple site,
+and I don't need to look any further: GH pages is a perfectly fine way of serving a few
+html files, which is what a Hugo site ends up being.
 
-### Why Hugo?
 
-The first question is why a _site builder_? I'm competent at web development, why not just write it all myself? The markdown processing makes it much easier to just write words, not having to think about the formatting, and if I'm going to blog often, then I'll need that.
+### Hugo
 
-Next it gets to why Hugo? why not Jekyll or any of the other vast array of site builders? The answer to that is sadly rather boring, it had a theme I liked the look of, in particular [this theme](https://github.com/themefisher/kross-hugo), and it had an MIT license, so I could publish and tweak it as much as I wanted to.
+My starting point was Sam Robbin's great
+[theme](https://github.com/samrobbins85/portfolio-website-v2), as it had the clean
+and simple feel I was looking for. Though I rewrote quite a bit of the code, it was a
+pleasure using it. I'd say starting from a particular theme is extremely comfortable, as I
+can just need to focus on adding content, and progressively change the underlying code if
+needed.
 
-### Why start blogging?
+To work with Hugo I use its CLI tool. When testing/writing locally, `hugo server` will
+make your site available at _localhost_. Hugo comes with LiveReload built in, and given
+its speed, any changes made will display almost intantly. When ready to publish your
+changes, running `hugo` will build the `public` folder, containing the site's content.
+This is the folder we want to host in GitHub pages, so creating a repo there would be
+quite natural. But I wanted to have the whole site on a single repo for simplicity.
 
-A very good question. For one it would allow me to showcase my skills more than just a portfolio would, not everything fits under the umbrella of a portfolio, but I can blog about whatever I want. Secondly is to act as a reminder of how I do things, if I blog my process when I do technical things, I'll always be able to look back and see how I did it if I ever have to do it again.
 
-### So what can I expect to see in the blog?
+### GitHub & GitHub pages
 
-The current plan is for the vast majority of posts to be technical guides on how to do things, but there might be some variety if I want to blog about events.
+There are multiple ways of achieving this, but here's a very simple one.
+GitHub pages allows choosing which branch to use as source;
+the idea is to have my main branch contain the source and a different one
+contain the built site. To comfortably do this, I just need a few extra steps:
+1) Add `public/` to `.gitignore`, so I can keep a clean directory.
+2) Create a branch in the `public/` folder, which will contain the built site:
+```git worktree add -B gh-pages public upstream/gh-pages```
+
+To upload new content, I just need to run `hugo` to build the site, move to the `public/`
+folder and push to GitHub. I wrote a simple script to do this,
+[publish.sh](https://github.com/CMarah/personal-website/blob/main/publish.sh).
