@@ -196,8 +196,7 @@
   <div class="uk-container">
     <div class="uk-text-center">
       
-        <p class="uk-text-lead">I&rsquo;m a Mathematician &amp; Developer based in Spain.<br>
-I create fast &amp; clean webpages and develop web services.</p>
+        <p class="uk-text-lead">I&rsquo;m a Mathematician &amp; Developer based in Spain.</p>
         
           <a class="uk-button uk-button-text" href="https://marah.dev/about">More about me</a>
         
@@ -232,38 +231,146 @@ I create fast &amp; clean webpages and develop web services.</p>
 
 
 <div id="JavaScript" uk-modal>
-  <div class="uk-modal-dialog uk-modal-body">
+  <div class="uk-modal-dialog uk-modal-body" style="margin-top: 15%">
     <button class="uk-modal-close-default" type="button" uk-close></button>
-    <div class="uk-modal-header">
-      <h2 class="uk-modal-title">JavaScript</h2>
+    <div class="uk-modal-header" style="display: flex">
+      <img src="https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg" style="height: 3em"></img>
+      <h2 class="uk-modal-title" style="margin: 0; margin-left: 1em;">JavaScript</h2>
     </div>
-    <p>With over 5 years of experience, JavaScript is my main programming Language.  I try to write clean, maintainable code, while keeping up to date on current JS practices.<br> In particular, I follow the functional programming paradigm wherever I can, as I think it produces a more readable code. </p>
+    <p>With over 5 years of experience, JavaScript is my main programming Language. I try to write clean, maintainable code, while keeping up to date on current JS practices. In particular, I prefer functional programming, as I think it produces a more readable code. </p>
+  </div>
+</div>
+
+<div id="React" uk-modal>
+  <div class="uk-modal-dialog uk-modal-body" style="margin-top: 15%">
+    <button class="uk-modal-close-default" type="button" uk-close></button>
+    <div class="uk-modal-header" style="display: flex">
+      <img src="logos/react.svg" style="height: 3em"></img>
+      <h2 class="uk-modal-title" style="margin: 0; margin-left: 1em;">React</h2>
+    </div>
+    <p>React has been my main UI framework for the past few years, having used it in several projects, both small and large in scale. Though I have tried other libraries, I'm still the most comfortable with React. This is specially true with the addition of hooks, as it becomes much more compatible with functional programming.<br> With React I've also used other technologies such as Redux or Immutable. </p>
+  </div>
+</div>
+
+<div id="Docker" uk-modal>
+  <div class="uk-modal-dialog uk-modal-body" style="margin-top: 15%">
+    <button class="uk-modal-close-default" type="button" uk-close></button>
+    <div class="uk-modal-header" style="display: flex">
+      <img src="https://www.docker.com/sites/default/files/d8/styles/role_icon/public/2019-07/Docker-Logo-White-RGB_Vertical-BG_0.png" style="height: 3em"></img>
+      <h2 class="uk-modal-title" style="margin: 0; margin-left: 1em;">Docker</h2>
+    </div>
+    <p>During the past few years I've ported multiple services to Docker containers. I needed consistent results and parallelization, as workloads could vary, and Docker was one of the obvious choices.<br> In particular, one of the projects involved web crawling, and I feared it could be troublesome to launch multiple containers with web browsers on a single machine, but it works flawlessly. </p>
+  </div>
+</div>
+
+<div id="MongoDB" uk-modal>
+  <div class="uk-modal-dialog uk-modal-body" style="margin-top: 15%">
+    <button class="uk-modal-close-default" type="button" uk-close></button>
+    <div class="uk-modal-header" style="display: flex">
+      <img src="logos/mongodb.svg" style="height: 3em"></img>
+      <h2 class="uk-modal-title" style="margin: 0; margin-left: 1em;">MongoDB</h2>
+    </div>
+    <p>I have used Mongo in almost every project since I started coding. Easy to set up, fast if correctly indexed, and being very comfortable with it, I doubt I'll stop using Mongo any time soon. </p>
+  </div>
+</div>
+
+<div id="RabbitMQ" uk-modal>
+  <div class="uk-modal-dialog uk-modal-body" style="margin-top: 15%">
+    <button class="uk-modal-close-default" type="button" uk-close></button>
+    <div class="uk-modal-header" style="display: flex">
+      <img src="logos/rabbitmq.png" style="height: 3em"></img>
+      <h2 class="uk-modal-title" style="margin: 0; margin-left: 1em;">RabbitMQ</h2>
+    </div>
+    <p>RabbitMQ has been a key part of many of my projects in recent years. I've often needed multiple servers or processes to communicate, like queueing up different kind of tasks for Docker containers to fulfill. RabbitMQ is the best option I've found to cover this necessity.<br> Decently easy to set up, reliable, open-source... I haven't found any reason to stop using it. </p>
+  </div>
+</div>
+
+<div id="Redis" uk-modal>
+  <div class="uk-modal-dialog uk-modal-body" style="margin-top: 15%">
+    <button class="uk-modal-close-default" type="button" uk-close></button>
+    <div class="uk-modal-header" style="display: flex">
+      <img src="logos/redis.svg" style="height: 3em"></img>
+      <h2 class="uk-modal-title" style="margin: 0; margin-left: 1em;">Redis</h2>
+    </div>
+    <p>I've used Redis in a couple of occasions, when response time was important enough, like when setting up a cache. Though not suitable for large storage sizes, for small & quick databases I would say it's one of my favourite options. </p>
+  </div>
+</div>
+
+<div id="Vue" uk-modal>
+  <div class="uk-modal-dialog uk-modal-body" style="margin-top: 15%">
+    <button class="uk-modal-close-default" type="button" uk-close></button>
+    <div class="uk-modal-header" style="display: flex">
+      <img src="logos/vue.png" style="height: 3em"></img>
+      <h2 class="uk-modal-title" style="margin: 0; margin-left: 1em;">Vue</h2>
+    </div>
+    <p>Vue was my first step in frontend frameworks, and I think it was a great starting point. It's simplicity and ease of use made writing components very easy, while being more than powerful enough for many projects.<br> Though I wouldn't recommend it for very complex or large sites, I still use it sometimes if I want to release an idea quickly. </p>
   </div>
 </div>
 
 <div id="Latex" uk-modal>
-  <div class="uk-modal-dialog uk-modal-body">
+  <div class="uk-modal-dialog uk-modal-body" style="margin-top: 15%">
     <button class="uk-modal-close-default" type="button" uk-close></button>
-    <div class="uk-modal-header">
-      <h2 class="uk-modal-title">Latex</h2>
+    <div class="uk-modal-header" style="display: flex">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg" style="height: 3em"></img>
+      <h2 class="uk-modal-title" style="margin: 0; margin-left: 1em;">Latex</h2>
     </div>
-    <p></p>
+    <p>LaTeX is a key tool when writing mathematical content. Though a bit daunting at first, it's practically mandatory nowadays. In this website I'm using <a href='https://katex.org/'>KaTeX</a>, a math typesetting library for websites. </p>
   </div>
 </div>
 
 <section class="uk-margin-large-top uk-margin-large-bottom" style="text-align: center">
   <div class="uk-container">
-    <h1 class="uk-heading-line uk-text-center uk-heading-medium"><span>Skills</span></h1>
-    <p><i>Some of the technologies I've worked with.<br>Click on them to find out more.</i></p>
-    <div class="uk-child-width-1-6@l uk-child-width-1-3@m uk-child-width-1-3@s uk-child-width-1-2 uk-text-center uk-flex-center" uk-grid>
+    <h1 class="uk-heading-line uk-heading-medium"><span>Skills</span></h1>
+    <p><i>Some of the technologies & tools I've worked with.<br>
+      Click on them to find out more.
+    </i></p>
+    <div class="uk-child-width-1-6@l uk-child-width-1-3@m uk-child-width-1-3@s uk-child-width-1-2 uk-text-center uk-flex-center"
+      style="padding-left: 15%; padding-right: 15%;"
+    uk-grid>
       
-      <div class="imagemargin">
+      <div class="imagemargin" style="width: 25%">
         <img class="contain skills" src="https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg" alt="" loading="lazy" style="cursor: pointer" uk-toggle="target: #JavaScript"
         >
         <h4>JavaScript</h4>
       </div>
       
-      <div class="imagemargin">
+      <div class="imagemargin" style="width: 25%">
+        <img class="contain skills" src="logos/react.svg" alt="" loading="lazy" style="cursor: pointer" uk-toggle="target: #React"
+        >
+        <h4>React</h4>
+      </div>
+      
+      <div class="imagemargin" style="width: 25%">
+        <img class="contain skills" src="https://www.docker.com/sites/default/files/d8/styles/role_icon/public/2019-07/Docker-Logo-White-RGB_Vertical-BG_0.png" alt="" loading="lazy" style="cursor: pointer" uk-toggle="target: #Docker"
+        >
+        <h4>Docker</h4>
+      </div>
+      
+      <div class="imagemargin" style="width: 25%">
+        <img class="contain skills" src="logos/mongodb.svg" alt="" loading="lazy" style="cursor: pointer" uk-toggle="target: #MongoDB"
+        >
+        <h4>MongoDB</h4>
+      </div>
+      
+      <div class="imagemargin" style="width: 25%">
+        <img class="contain skills" src="logos/rabbitmq.png" alt="" loading="lazy" style="cursor: pointer" uk-toggle="target: #RabbitMQ"
+        >
+        <h4>RabbitMQ</h4>
+      </div>
+      
+      <div class="imagemargin" style="width: 25%">
+        <img class="contain skills" src="logos/redis.svg" alt="" loading="lazy" style="cursor: pointer" uk-toggle="target: #Redis"
+        >
+        <h4>Redis</h4>
+      </div>
+      
+      <div class="imagemargin" style="width: 25%">
+        <img class="contain skills" src="logos/vue.png" alt="" loading="lazy" style="cursor: pointer" uk-toggle="target: #Vue"
+        >
+        <h4>Vue</h4>
+      </div>
+      
+      <div class="imagemargin" style="width: 25%">
         <img class="contain skills" src="https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg" alt="" loading="lazy" style="cursor: pointer" uk-toggle="target: #Latex"
         >
         <h4>Latex</h4>
@@ -278,7 +385,9 @@ I create fast &amp; clean webpages and develop web services.</p>
 
 <section class="uk-margin-large-bottom">
   <div class="uk-container">
-    <h1 class="uk-heading-line  uk-heading-medium"><span>Experience</span></h1>
+    <h1 class="uk-heading-line uk-heading-medium uk-text-center uk-margin-large-bottom">
+      <span>Experience</span>
+    </h1>
     <div class="uk-child-width-1-4@m uk-child-width-1-2  uk-text-center uk-flex-center"
       uk-grid style="padding-left: 20px; padding-right: 20px"
     >
@@ -304,15 +413,11 @@ I create fast &amp; clean webpages and develop web services.</p>
 
 
 
-
-
-
-
-
-
 <section class="uk-margin-xlarge-bottom">
   <div class="uk-container">
-    <h1 class="uk-heading-line uk-heading-medium uk-margin-large-bottom"><span>Education</span></h1>
+    <h1 class="uk-heading-line uk-heading-medium uk-text-center uk-margin-large-bottom">
+      <span>Education</span>
+    </h1>
     <div class=" uk-grid-large uk-child-width-1-3@s uk-child-width-1  uk-text-center uk-flex-center" uk-grid style="padding-left: 20px; padding-right: 20px">
       
         <a href="https://cfis.upc.edu/es" style="text-decoration: none">
