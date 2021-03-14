@@ -83,10 +83,11 @@
 {{ if .Site.Data.homepage.skill.enable }}
 {{ range .Site.Data.homepage.skill.item }}
 <div id="{{ .title }}" uk-modal>
-  <div class="uk-modal-dialog uk-modal-body">
+  <div class="uk-modal-dialog uk-modal-body" style="margin-top: 15%">
     <button class="uk-modal-close-default" type="button" uk-close></button>
-    <div class="uk-modal-header">
-      <h2 class="uk-modal-title">{{.title}}</h2>
+    <div class="uk-modal-header" style="display: flex">
+      <img src="{{.logo}}" style="height: 3em"></img>
+      <h2 class="uk-modal-title" style="margin: 0; margin-left: 1em;">{{.title}}</h2>
     </div>
     <p>{{.description | safeHTML}}</p>
   </div>
@@ -94,11 +95,15 @@
 {{ end }}
 <section class="uk-margin-large-top uk-margin-large-bottom" style="text-align: center">
   <div class="uk-container">
-    <h1 class="uk-heading-line uk-text-center uk-heading-medium"><span>Skills</span></h1>
-    <p><i>Some of the technologies I've worked with.<br>Click on them to find out more.</i></p>
-    <div class="uk-child-width-1-6@l uk-child-width-1-3@m uk-child-width-1-3@s uk-child-width-1-2 uk-text-center uk-flex-center" uk-grid>
+    <h1 class="uk-heading-line uk-heading-medium"><span>Skills</span></h1>
+    <p><i>Some of the technologies & tools I've worked with.<br>
+      Click on them to find out more.
+    </i></p>
+    <div class="uk-child-width-1-6@l uk-child-width-1-3@m uk-child-width-1-3@s uk-child-width-1-2 uk-text-center uk-flex-center"
+      style="padding-left: 15%; padding-right: 15%;"
+    uk-grid>
       {{ range .Site.Data.homepage.skill.item }}
-      <div class="imagemargin">
+      <div class="imagemargin" style="width: 25%">
         <img class="contain skills" src="{{.logo}}" alt="{{.company}}" loading="lazy" style="cursor: pointer" uk-toggle="target: #{{ .title }}"
         >
         <h4>{{.title }}</h4>
@@ -113,7 +118,9 @@
 {{ if .Site.Data.homepage.experience.enable }}
 <section class="uk-margin-large-bottom">
   <div class="uk-container">
-    <h1 class="uk-heading-line  uk-heading-medium"><span>Experience</span></h1>
+    <h1 class="uk-heading-line uk-heading-medium uk-text-center uk-margin-large-bottom">
+      <span>Experience</span>
+    </h1>
     <div class="uk-child-width-1-4@m uk-child-width-1-2  uk-text-center uk-flex-center"
       uk-grid style="padding-left: 20px; padding-right: 20px"
     >
@@ -137,50 +144,13 @@
 </section>
 {{ end }}
 
-<!-- Certifications -->
-{{ if .Site.Data.homepage.certifications.enable }}
-<section class="uk-margin-large-top uk-margin-medium-bottom">
-  <div class="uk-container">
-    <h1 class="uk-heading-line  uk-heading-medium"><span>Certifications</span></h1>
-
-    <p class="uk-text-center uk-text-lead"><i>Click the images below to view the proof</i></p>
-    <div class="uk-child-width-1-6@l uk-child-width-1-3@m uk-child-width-1-3@s uk-child-width-1-2 uk-text-center uk-flex-center"
-         uk-grid >
-         {{ range .Site.Data.homepage.certifications.item }}
-         <a href="{{.url}}" class="imagemargin">
-           <img class="contain certs" src="{{.image}}" alt="{{.title}}" loading="lazy" style="cursor: pointer">
-           {{.title}}
-         </a>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
-
-<!-- Awards -->
-{{ if .Site.Data.homepage.awards.enable }}
-<section class="uk-margin-large-top uk-margin-medium-bottom">
-  <div class="uk-container">
-    <h1 class="uk-heading-line uk-heading-medium"><span>Awards and Achievements</span></h1>
-    <div class="uk-child-width-1-6@l uk-child-width-1-3@m uk-child-width-1-3@s uk-child-width-1-2 uk-text-center uk-flex-center"
-         uk-grid uk-height-match="target: > div > h4">
-      {{ range .Site.Data.homepage.awards.item }}
-      <div class="imagemargin">
-        <img class="contain certs" src="{{.image}}" alt="{{.title}}" loading="lazy" >
-        <h4>{{.title}}</h4>
-        <p>{{.event}}</p>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
-
 {{ if .Site.Data.homepage.education.enable }}
 <!-- EDUCATION -->
 <section class="uk-margin-xlarge-bottom">
   <div class="uk-container">
-    <h1 class="uk-heading-line uk-heading-medium uk-margin-large-bottom"><span>Education</span></h1>
+    <h1 class="uk-heading-line uk-heading-medium uk-text-center uk-margin-large-bottom">
+      <span>Education</span>
+    </h1>
     <div class=" uk-grid-large uk-child-width-1-3@s uk-child-width-1  uk-text-center uk-flex-center" uk-grid style="padding-left: 20px; padding-right: 20px">
       {{ range .Site.Data.homepage.education.item }}
         <a href="{{ .url }}" style="text-decoration: none">

@@ -9,9 +9,7 @@ social:
   email: carlos@marah.dev
 about:
   enable: true
-  content: "I'm a Mathematician & Developer based in Spain.  \n
-    I create fast & clean webpages and develop web services.
-  "
+  content: "I'm a Mathematician & Developer based in Spain."
   button:
     btn_text: More about me
     URL: "/about"
@@ -21,14 +19,63 @@ skill:
     - title: JavaScript
       logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
       description: "With over 5 years of experience, JavaScript is my main
-        programming Language.  I try to write clean, maintainable code, while
-        keeping up to date on current JS practices.<br>
-        In particular, I follow the functional programming paradigm wherever I can, as I think
-        it produces a more readable code.
+        programming Language. I try to write clean, maintainable code, while
+        keeping up to date on current JS practices. In particular, I prefer
+        functional programming, as I think it produces a more readable code.
+      "
+    - title: React
+      logo: "logos/react.svg"
+      description: "React has been my main UI framework for the past few years, having
+        used it in several projects, both small and large in scale. Though I have tried
+        other libraries, I'm still the most comfortable with React.
+        This is specially true with the addition of hooks, as it becomes much more
+        compatible with functional programming.<br>
+        With React I've also used other technologies such as Redux or Immutable.
+      "
+    - title: Docker
+      logo: https://www.docker.com/sites/default/files/d8/styles/role_icon/public/2019-07/Docker-Logo-White-RGB_Vertical-BG_0.png
+      description: "During the past few years I've ported multiple services to
+        Docker containers. I needed consistent results and parallelization, as workloads
+        could vary, and Docker was one of the obvious choices.<br>
+        In particular, one of the projects involved web crawling, and I feared it could
+        be troublesome to launch multiple containers with web browsers on a single
+        machine, but it works flawlessly.
+      "
+    - title: MongoDB
+      logo: "logos/mongodb.svg"
+      description: "I have used Mongo in almost every project since I started coding.
+        Easy to set up, fast if correctly indexed, and being very comfortable with it,
+        I doubt I'll stop using Mongo any time soon.
+      "
+    - title: RabbitMQ
+      logo: "logos/rabbitmq.png"
+      description: "RabbitMQ has been a key part of many of my projects in recent years.
+        I've often needed multiple servers or processes to communicate, like queueing up
+        different kind of tasks for Docker containers to fulfill. RabbitMQ is the
+        best option I've found to cover this necessity.<br>
+        Decently easy to set up, reliable, open-source...
+        I haven't found any reason to stop using it.
+      "
+    - title: Redis
+      logo: "logos/redis.svg"
+      description: "I've used Redis in a couple of occasions, when response time was important
+        enough, like when setting up a cache. Though not suitable for large storage sizes,
+        for small & quick databases I would say it's one of my favourite options.
+      "
+    - title: Vue
+      logo: "logos/vue.png"
+      description: "Vue was my first step in frontend frameworks, and I think it was a great
+        starting point. It's simplicity and ease of use made writing components very easy,
+        while being more than powerful enough for many projects.<br>
+        Though I wouldn't recommend it for very complex or large sites, I still use it
+        sometimes if I want to release an idea quickly.
       "
     - title: Latex
       logo: https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg
-      description: ''
+      description: "LaTeX is a key tool when writing mathematical content. Though a bit
+        daunting at first, it's practically mandatory nowadays. In this website I'm using
+        <a href='https://katex.org/'>KaTeX</a>, a math typesetting library for websites.
+      "
 experience:
   enable: true
   item:
