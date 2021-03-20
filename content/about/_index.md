@@ -15,3 +15,5 @@ work there, and have remained here ever since.
 
 Beside my job, pursuing personal projects & learning new things is very important to me.
 I am always looking for interesting problems, both mathematical & coding; I would like to post some of these in the _Math_ section.
+
+You can find my CV [_here_](/CV.pdf).
