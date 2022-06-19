@@ -33,7 +33,7 @@ skill:
         With React I've also used other technologies such as Redux or Immutable.
       "
     - title: Docker
-      logo: https://www.docker.com/sites/default/files/d8/styles/role_icon/public/2019-07/Docker-Logo-White-RGB_Vertical-BG_0.png
+      logo: "logos/docker.png"
       description: "During the past few years I've ported multiple services to
         Docker containers. I needed consistent results and parallelization, as workloads
         could vary, and Docker was one of the obvious choices.<br>
