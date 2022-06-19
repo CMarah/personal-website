@@ -8,6 +8,16 @@
     <language>en-gb</language>
     <lastBuildDate>Thu, 19 Oct 2017 15:26:15 +0000</lastBuildDate><atom:link href="https://marah.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Draft.js</title>
+      <link>https://marah.dev/blog/draftjs/</link>
+      <pubDate>Sun, 19 Jun 2022 23:31:29 +0200</pubDate>
+      
+      <guid>https://marah.dev/blog/draftjs/</guid>
+      <description>An extensible, powerful text editor can be of great use in many sites. Draft.js is a rich text editor framework for React, with some very deep customizability. Sadly, this seems to come at the cost of an API which feels cumbersome at times, and the docs are lacking. In any case, the framework is still being slowly developed and is one of the main options to consider.
+I used Draft.js to add some new functionalities to basic textareas.</description>
+    </item>
+    
+    <item>
       <title>Hosting a Hugo website on GitHub pages</title>
       <link>https://marah.dev/blog/first-blog/</link>
       <pubDate>Fri, 12 Mar 2021 21:14:34 +0600</pubDate>
